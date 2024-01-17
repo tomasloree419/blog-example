@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { nanoid } from "nanoid";
+import { nanoid } from "@reduxjs/toolkit";
 import { IPosts, IPost } from "../models/postinterface";
 
 const initialState: IPosts = {
@@ -8,7 +8,7 @@ const initialState: IPosts = {
       id: nanoid(),
       title: "About Typescript",
       content: "Typescript is extended javascript with type",
-      avatar: "./avatar/avatar3.png",
+      avatar: "./avatar/avatar.png",
       user: "Dolly",
     },
     {
@@ -16,7 +16,7 @@ const initialState: IPosts = {
       title: "React is still in king state of web",
       content:
         "React is open-source javascript framework for single page applications",
-      avatar: "./avatar/avatar3.png",
+      avatar: "./avatar/avatar.png",
       user: "Tom",
     },
   ],

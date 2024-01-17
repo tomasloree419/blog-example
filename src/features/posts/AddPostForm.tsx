@@ -28,7 +28,7 @@ export const AddPostForm = () => {
           title,
           content,
           user: Math.random().toString(36).substring(2, 7),
-          avatar: "./avatar/avatar3.png",
+          avatar: "./avatar/avatar.png",
         })
       );
       navigate("/");
